@@ -1,0 +1,135 @@
+{
+    "menu":{
+        "Menu_Home" :  "Inicio",
+        "Menu_About" : "Nosotros",
+        "Menu_Token" : "Token",
+        "Menu_Gaming" : "Gaming",
+        "Menu_Market" : "Marketplace",
+        "Menu_Road" : "Road Map"
+    },
+    "buttons":{
+        "Btn_Read" : "Leer más",
+        "Btn_Register" : "Regístrate",
+        "Btn_Buy" : "¡Cómpralo aqui!",
+        "Btn_Login" : "Login",
+        "Btn_Pres" : "Presentación"
+    },
+
+    "hero" : {
+        "Hero_01" : "Sacude el mundo con tu rugido y deja que tus ganancias te conviertan en el <span>REY</span>",
+        "Hero_02" : "Gracias a nuestro innovador ecosistema multifunción de posibilidades y aplicaciones DeFi, que pone a tu alcance exclusivas colecciones de NFT’s.",
+        "Lion_01" : "Recuerda que un león nunca pierde la calma",
+        "Lion_02" : "Trabaja con inteligencia, porque cuando los leones quieren ganar, utilizan NFT Royal Token y optimizan sus ganancias para obtener beneficios de acuerdo con el tiempo y el tipo de activos que suministran."
+    },
+
+    "king" :{
+        "King_01" : "El ADN de un Rey poderoso",
+        "King_02" : "NFT- Royal Token ha sido especialmente creado en la BlockChain de Binance Smart Chain (BSC), un desarrollo de última generación que ofrece múltiples beneficios gracias a su tecnología de punta. Entre sus ventajas destacan las siguientes:",
+
+        "King_List_01" : "Su doble cadena permite transacciones rápidas y simultáneas",
+        "King_List_02" : "Es compatible con EVM",
+        "King_List_03" : "Soporte para tokens ERC-20 y BEP-20",
+        "King_List_04" : "Compatible con distintos modelos de negocios",
+        "King_List_05" : "Operaciones con un bajo costo",
+        "King_List_06" : "Cuenta con pools de liquidez personalizados",
+        "King_List_07" : "Rápida verificación de las transacciones.",
+
+        "King_Royal_01" : "Royal Token",
+        "King_Royal_02" : "Blockchain",
+        "King_Royal_03" : "Precio"
+    },
+    "token":{
+        "Token_Title" : "Adquiere NFT Royal Token ahora mismo y construye tu reino paso a paso:",
+        "Token_01" : "¿Qué es un Token?",
+        "Token_02" : "Imagina que deseas comerciar con un producto o servicio, enviar algunos datos o generar un incentivo intangible, pero quieres hacerlo de forma fácil y segura. Esto puedes hacerlo a través de un token, porque un token, en palabras simples, es una “ficha” que puede representar cualquier cosa. Y aun cuando pueden funcionar como un medio de intercambio o pago, su objetivo principal es representar un valor.<br><br>Dicho valor es determinado de acuerdo con la configuración del entorno en el que se desarrolle, a través de un Smart contract. Y el único medio por el que puede funcionar un token, es una blockchain. ",
+
+        "Token_03" : "¿Cuáles son las ventajas de un token?",
+        "Token_04" : "Con frecuencia suele confundirse un token con una criptomoneda, pero no son lo mismo. Cada desarrollo tiene sus propias características y cualidades. Para empezar, un token tiene múltiples aplicaciones, lo que lo vuelve más versátil y adaptable que una criptomoneda, porque puede cumplir con propósitos específicos. Hoy en día, por ejemplo, los tokens ya funcionan como una nueva herramienta de inversión.",
+
+        "Token_Title_02" : "Además, existen diferentes tipos de token, según su objetivo.",
+
+        "Token_Types_01" : "Utility Token",
+        "Token_Types_02" : "Security Token",
+        "Token_Types_03" : "Equity Token",
+        "Token_Types_04" : "NFT",
+
+        "Token_05" : "¿Por qué apostar por los Token?",
+        "Token_06" : "Hace algún tiempo, entre marzo de 2016 y marzo de 2017, distintos startups alrededor del mundo recaudaron más de 300 millones de dólares mediante Initial Coins Offerings (ICOs), un recurso de “sustitución” posible gracias a los tokens.  Esto sólo es una pequeña muestra del crecimiento y el alcance que han ido adquiriendo estos activos desde sus primeros años de origen.<br><br> Actualmente, se espera que la llamada tokenización del mundo, en el sector financiero y fuera de él, sea una de las tantas aplicaciones de este activo y se incremente en los próximos años. ¿Qué significa todo esto? Muy sencillo: NFT ROYAL TOKEN tiene gran potencial de revalorización, proyección y crecimiento a futuro, desde el día de hoy."
+
+    },
+    "gaming":{
+        "Gaming_01" : "Business opportunities and applications of NFT- Royal Token",
+        "Gaming_02" : "An innovative project that conquers the world of Gaming and casinos-crypto",
+
+        "Gaming_Today" : "A new way to play",
+        "Gaming_03" : "In recent months, for example, sectors such as gaming and online casinos have broken the odds and have adapted to a reality that demands new ways of enjoying leisure time by accepting tokens in their gaming and participation dynamics.",
+        "Gaming_04" : "The use of tokens in this area allows to speed up, increase security and show greater transparency in transactions not only of a financial nature, but also in other areas, such as gambling and betting, among other activities.",
+        "Gaming_05" : "Thanks to its flexible and constantly updated nature, NFT-Royal Token is a modern solution that responds to the needs of an ever-growing and globally recognized market.",
+        "Gaming_06" : "Advantages of <span>NFT-Royal Token</span> in gaming:",
+
+        "Gaming_Teaser_01": "Innovative technology",
+        "Gaming_Teaser_02" : "Our project features the BEP-20 blockchain technology, a token fully targeted to the entertainment and gaming market, developed to achieve the best performance with an incredible number of opportunities.",
+        "Gaming_Teaser_03" : "Security" ,
+        "Gaming_Teaser_04" : "We offer a solution for the entertainment field, with exceptional security through BlockChain and encryption technology.",
+        "Gaming_Teaser_05" : "Transparency",
+        "Gaming_Teaser_06" : "Gaming offers more and better transparency to its customers, once they have completed the registration of transactions available for verification through etherscan.",
+        "Gaming_Teaser_07" : "Systems & APIs",
+        "Gaming_Teaser_08" : "We adapt gaming platforms with APIs that connect people to machines, games, and systems, all in one place, making it transparent and efficient at the same time.",
+        "Gaming_Teaser_09" : "Reliability",
+        "Gaming_Teaser_10" : "Increasingly, the reliance on gaming platforms will increase the size of this market, which will increasingly attract hundreds of people looking to take advantage of this opportunity. The audience and consumers of this content are increasing by leaps and bounds."
+
+    },
+    "market":{
+        "Market_01" : "Collect and sell NFT's in our amazing Royal Marketplace",
+        "Market_02" : "Developing and selling your own NFT's is possible. You only need to put into practice the following indications, and you will start earning as soon as possible:",
+
+        "Market_Teaser_01" : "Set up your Wallet",
+        "Market_Teaser_02" : "Once you have your WALLET configuration ready, connect it to Royal Marketplace. You just need to click on the wallet icon, and you will immediately see the offer of accepted wallets.",
+        "Market_Teaser_03" : "Start your collection",
+        "Market_Teaser_04" : "Click on 'My gallery' and customize your collection, give it your personal touch! Add social links, a short description, profile or banner images and set a secondary sale rate.",
+        "Market_Teaser_05" : "Show your creativity!",
+        "Market_Teaser_06" : "Let the world enjoy your creativity! Upload your NFT's (image, video, audio, or 3D art), give them a witty or funny title, and customize them with your own attributes, stats and extra content.",
+        "Market_Teaser_07" : "Trade with them",
+        "Market_Teaser_08" : "Make the decision: auctions, fixed price listings or variable price listings - the choice is yours! You choose how to sell your NFT's and we help you make it happen.",
+
+        "Market_Center" : "Trust Royal Marketplace<br>and get started now",
+
+        "Market_Center_01" : "Security is our greatest commitment.",
+        "Market_Center_02" : "Reliable buy/sell transactions",
+        "Market_Center_03" : "The process of creating and developing NFT's is easy.",
+        "Market_Center_04" : "You can sell customized NFT's and even your own project!",
+
+        "Market_03" : "Enjoy the advantages of Royal Token Marketplace",
+        "Market_04" : "The NFT trend is already unstoppable. Moreover, being able to generate more tokens by staking, the liquidity of the project is guaranteed.",
+        "Market_05" : "Say goodbye to doubts! NFT ROYAL TOKEN has great potential for revaluation and growth as it is backed by a solid and decentralized economic model, offering you the opportunity to help.  In addition, NFT-Royal Token is able to generate more tokens by staking and injecting liquidity to the project. Hundreds of ventures have started to become profitable this 2021, thanks to this technology, and their profits are rising in a fast and secure way.",
+        "Market_06" : "Enjoy the future with NFT-Royal Token"
+
+    },
+    "road":{
+        "Road_Title" : "ROAD MAP ROYAL TOKEN",
+
+        "Road_01" : "SEPTEMBER",
+        "Road_01_text" : "Trade with a latest technology cryptoasset. Buy or sell the product or service you need and get incredible rewards and benefits. NFT-Royal Token has different options for you.",
+
+        "Road_02" : "OCTOBER",
+        "Road_02_text" : "Patience is a virtue, use it to make your money multiply and thanks to staking get exclusive benefits. It is easy to participate and you can do it immediately. At NFT-Royal Token we accompany you from the beginning.",
+
+        "Road_03" : "NOVEMBER",
+        "Road_03_text" : "Discover fast and reliable solutions to every transaction you want to make at NFT-Royal Token, thanks to our intelligent and multifunctional ecosystem specially designed to offer you the latest in the DeFi sector.",
+
+        "Road_04" : "DECEMBER",
+        "Road_04_text" : "Get the statistics and projections you need from the crypto world, in a timely report to give you the best overview before you make your next trade. Trade securely thanks to NFT-Royal Token",
+
+        "Road_05" : "JANUARY",
+        "Road_06" : "FEBRUARY",
+        "Road_06_text" : "Trade the most attractive and interesting cryptoassets on the market. You can create them too! You can customize them to make them a success in our Marketplace. You decide how. Easy, quick and secure.",
+
+        "Road_07" : "MACH",
+        "Road_08" : "APRIL",
+        "Road_08_text" : "Play with the winning team and join the gaming boom! Enjoy our platform with all the technology you need to have fun and win at the same time. Get exclusive benefits, rewards and many more surprises.",
+
+        "Road_09" : "MAY",
+        "Road_10": "JUN"
+    }
+
+}
