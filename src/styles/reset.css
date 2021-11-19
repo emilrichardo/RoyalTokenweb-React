@@ -1,0 +1,196 @@
+/* ============================================== */
+/* FONTS */
+/* ============================================== */
+
+@font-face {
+font-family: 'ProximaNova-Reg';
+font-style: normal;
+font-weight: normal;
+src: local('ProximaNova-Reg'), url('../fonts/ProximaNova-Reg.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Soleto-Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Soleto-Bold'), url('../fonts/Soleto-Bold.woff') format('woff');
+}
+
+/* ============================================== */
+/* RESET */
+/* ============================================== */
+
+@charset 'UTF-8';
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section,
+main,img,form,input,label,textarea,button,
+p,h1,h2,h3,h4,h5,h6{display: block;}
+section{position: relative;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+fieldset, a > img,input,textarea,button{border:none;}
+input,textarea,button{outline: none;overflow: hidden;}
+html {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+input {-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+*, *:before, *:after {-webkit-box-sizing: inherit;-moz-box-sizing: inherit;box-sizing: inherit;}
+body{-webkit-font-smoothing: antialiased;overflow-y: scroll;}
+img {border:none !important;vertical-align: top;max-width:100%;margin:0 auto;}
+a{text-decoration: none;}
+a:hover{cursor: pointer !important;}
+label{margin:15px 0 10px;}
+form,input,label,section,p,h1,h2,h3,h4,h5,h6{width: 100%;}
+h1,h2,h3,h4,h5,h6,p,label{cursor: default;}
+p::first-letter{text-transform: capitalize;}
+pre{white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;cursor: default;}
+p,h1,h2,h3,h4,h5,h6,input,textarea,button, section,label{float: left;}
+
+/*-- Styles color --*/
+
+:root {
+  --color-blue:      #1D1D33;
+  --color-blue-shine:#425586;
+  --color-blue-soft: #29293B;
+  --color-blue-light:#f1f7fa;
+  --color-gold:      #D4A855;
+  --color-gold-h:    #e6bb69;
+  --color-purple:    #24023f;
+  --color-red:       #fe5353;
+
+
+  --color-dark:      #0e1113;
+  --color-black:     #222222;
+  --color-grey:      #8A8A8B;
+  --color-silver:    #EEEEEE;
+  --color-light:     #FAFAFA;
+  --color-white:     #ffffff;
+}
+
+/*-- Body --*/
+
+body{
+  background:var(--color-light);
+}
+
+/*-- Font --*/
+
+body,pre,input,label,button,textarea{
+  overflow-wrap: break-word;
+}
+
+/*-- Font Margin --*/
+
+h1,h2,h3,h4,p{
+  margin:10px 0;
+}
+
+/*-- Font Color --*/
+
+p,li,a,body,pre{color:var(--color-grey);}
+h1,h2,h3,h4,h5,h6{color:var(--color-blue);}
+
+/*-- Font Weight --*/
+
+p,li,a,body,pre,b{font-family: 'ProximaNova-Reg', sans-serif;}
+h1,h2,h3,h4,h5,h6,label{font-family: 'Soleto-Bold';}
+
+/*-- Font Size --*/
+
+label,input,textarea,
+button,body,pre,p,a,li{
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*-- Headding Font --*/
+
+.h1{font-size: 60px;line-height: 70px;}
+.h2{font-size: 40px;line-height: 50px;}
+.h3{font-size: 28px;line-height: 40px;}
+.h4{font-size: 20px;line-height: 32px;}
+
+@media screen and (max-width: 1440px) {
+
+  label,input,textarea,
+  button,body,pre,p,a,li{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .h1{font-size: 40px;line-height: 50px;}
+  .h2{font-size: 35px;line-height: 40px;}
+  .h3{font-size: 28px;line-height: 40px;}
+  .h4{font-size: 20px;line-height: 32px;}
+}
+
+@media screen and (max-width: 768px) {
+  .h1{font-size: 35px;line-height: 40px;}
+  .h2{font-size: 28px;line-height: 35px;}
+  .h3{font-size: 20px;line-height: 28px;}
+  .h4{font-size: 16px;line-height: 24px;}
+}
+
+@media screen and (max-width: 480px) {
+
+  label,input,textarea,
+  button,body,pre,p,a,li{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .h1{font-size: 24px;line-height: 28px;}
+  .h2{font-size: 22px;line-height: 26px;}
+  .h3{font-size: 18px;line-height: 24px;}
+  .h4{font-size: 14px;line-height: 20px;}
+  h1,h2,h3,h4,p{
+    margin:5px 0;
+  }
+}
+
+/*-- Form --*/
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input::-webkit-input-placeholder {color:var(--color-grey);}
+input:-moz-placeholder {color:var(--color-grey);}
+input::-moz-placeholder {color:var(--color-grey);}
+input:-ms-input-placeholder {color:var(--color-grey);}
+
+textarea::-webkit-input-placeholder {color:var(--color-grey);}
+textarea:-moz-placeholder {color:var(--color-grey);}
+textarea::-moz-placeholder {color:var(--color-grey);}
+textarea:-ms-input-placeholder {color:var(--color-grey);}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-light) inset;
+    -webkit-text-fill-color: var(--color-black);
+}
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-light) inset;
+    -webkit-text-fill-color: var(--color-black);
+}
