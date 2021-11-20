@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Helmet } from 'react-helmet';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -24,6 +25,15 @@ i18next.init({
 ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
+      <Helmet>
+
+        <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+      </Helmet>
       <App />
     </I18nextProvider>
 
