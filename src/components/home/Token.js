@@ -2,9 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import verde from "../../images/body/verde.png"
 import verde2 from "../../images/body/verde2.png"
+import verde3 from "../../images/body/verde3.png"
 export default function Token(params) {
     const [t, i18n] = useTranslation("global")
     return(
+        <>
         <section class="bg-gradient" id="three">
             <div class="block-content big">
                 <div class="content center top">
@@ -41,5 +43,19 @@ export default function Token(params) {
                 </div>
             </div>
         </section>
+        <section>
+            <div class="block-content big">
+
+                <div class="block-box right">
+                    <img src={verde3} loading="lazy"/>
+                    <div class="text">
+                        <h2 class="h3">{t("token.Token_05")}</h2>
+                        <p>{t("token.Token_06")}</p>
+                        <a href='#' class="btn gold">{t("buttons.Btn_Register")}</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </>
     )
 };
