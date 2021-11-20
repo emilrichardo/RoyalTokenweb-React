@@ -6,6 +6,7 @@ import King from "./components/home/King";
 import Token from "./components/home/Token";
 import Gaming from "./components/home/Gaming";
 import Market from "./components/home/Market";
+import Road from "./components/home/Road";
 import './styles/main.css'
 import './styles/style.css'
 import './styles/reset.css'
@@ -19,6 +20,7 @@ function App() {
       <Token/>
       <Gaming/>
       <Market/>
+      <Road/>
 
       <Footer></Footer>
     </div>

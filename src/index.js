@@ -12,7 +12,7 @@ import global_en from "./traslations/en/global.json";
 
 i18next.init({
   interpolation: {escapeValue:false},
-  lng: "en",
+  lng: "es",
   resources:{
     es:{
       global: global_es,
@@ -25,6 +25,7 @@ i18next.init({
 ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
+
       <Helmet>
 
         <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
