@@ -51,11 +51,11 @@ export default function Header() {
                         </div>
                     </div>
 
-                    <div className="hamburguer">
+                    {/* <div className="hamburguer">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </div>
+                    </div> */}
 
                     <ul className="nav">
                         <li><a href='#one' className="active">{t('menu.Menu_Home')}</a></li>

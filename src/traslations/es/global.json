@@ -16,7 +16,7 @@
     },
 
     "hero" : {
-        "Hero_01" : "Sacude el mundo con tu rugido y deja que tus ganancias te conviertan en el <span>REY</span>",
+        "Hero_01" : "Sacude el mundo con tu rugido y deja que tus ganancias te conviertan en el  REY ",
         "Hero_02" : "Gracias a nuestro innovador ecosistema multifunción de posibilidades y aplicaciones DeFi, que pone a tu alcance exclusivas colecciones de NFT’s.",
         "Lion_01" : "Recuerda que un león nunca pierde la calma",
         "Lion_02" : "Trabaja con inteligencia, porque cuando los leones quieren ganar, utilizan NFT Royal Token y optimizan sus ganancias para obtener beneficios de acuerdo con el tiempo y el tipo de activos que suministran."
@@ -41,7 +41,7 @@
     "token":{
         "Token_Title" : "Adquiere NFT Royal Token ahora mismo y construye tu reino paso a paso:",
         "Token_01" : "¿Qué es un Token?",
-        "Token_02" : "Imagina que deseas comerciar con un producto o servicio, enviar algunos datos o generar un incentivo intangible, pero quieres hacerlo de forma fácil y segura. Esto puedes hacerlo a través de un token, porque un token, en palabras simples, es una “ficha” que puede representar cualquier cosa. Y aun cuando pueden funcionar como un medio de intercambio o pago, su objetivo principal es representar un valor.<br><br>Dicho valor es determinado de acuerdo con la configuración del entorno en el que se desarrolle, a través de un Smart contract. Y el único medio por el que puede funcionar un token, es una blockchain. ",
+        "Token_02" : "Imagina que deseas comerciar con un producto o servicio, enviar algunos datos o generar un incentivo intangible, pero quieres hacerlo de forma fácil y segura. Esto puedes hacerlo a través de un token, porque un token, en palabras simples, es una “ficha” que puede representar cualquier cosa. Y aun cuando pueden funcionar como un medio de intercambio o pago, su objetivo principal es representar un valor. Dicho valor es determinado de acuerdo con la configuración del entorno en el que se desarrolle, a través de un Smart contract. Y el único medio por el que puede funcionar un token, es una blockchain. ",
 
         "Token_03" : "¿Cuáles son las ventajas de un token?",
         "Token_04" : "Con frecuencia suele confundirse un token con una criptomoneda, pero no son lo mismo. Cada desarrollo tiene sus propias características y cualidades. Para empezar, un token tiene múltiples aplicaciones, lo que lo vuelve más versátil y adaptable que una criptomoneda, porque puede cumplir con propósitos específicos. Hoy en día, por ejemplo, los tokens ya funcionan como una nueva herramienta de inversión.",
@@ -54,7 +54,7 @@
         "Token_Types_04" : "NFT",
 
         "Token_05" : "¿Por qué apostar por los Token?",
-        "Token_06" : "Hace algún tiempo, entre marzo de 2016 y marzo de 2017, distintos startups alrededor del mundo recaudaron más de 300 millones de dólares mediante Initial Coins Offerings (ICOs), un recurso de “sustitución” posible gracias a los tokens.  Esto sólo es una pequeña muestra del crecimiento y el alcance que han ido adquiriendo estos activos desde sus primeros años de origen.<br><br> Actualmente, se espera que la llamada tokenización del mundo, en el sector financiero y fuera de él, sea una de las tantas aplicaciones de este activo y se incremente en los próximos años. ¿Qué significa todo esto? Muy sencillo: NFT ROYAL TOKEN tiene gran potencial de revalorización, proyección y crecimiento a futuro, desde el día de hoy."
+        "Token_06" : "Hace algún tiempo, entre marzo de 2016 y marzo de 2017, distintos startups alrededor del mundo recaudaron más de 300 millones de dólares mediante Initial Coins Offerings (ICOs), un recurso de “sustitución” posible gracias a los tokens.  Esto sólo es una pequeña muestra del crecimiento y el alcance que han ido adquiriendo estos activos desde sus primeros años de origen. Actualmente, se espera que la llamada tokenización del mundo, en el sector financiero y fuera de él, sea una de las tantas aplicaciones de este activo y se incremente en los próximos años. ¿Qué significa todo esto? Muy sencillo: NFT ROYAL TOKEN tiene gran potencial de revalorización, proyección y crecimiento a futuro, desde el día de hoy."
 
     },
     "gaming":{
@@ -65,7 +65,7 @@
         "Gaming_03" : "In recent months, for example, sectors such as gaming and online casinos have broken the odds and have adapted to a reality that demands new ways of enjoying leisure time by accepting tokens in their gaming and participation dynamics.",
         "Gaming_04" : "The use of tokens in this area allows to speed up, increase security and show greater transparency in transactions not only of a financial nature, but also in other areas, such as gambling and betting, among other activities.",
         "Gaming_05" : "Thanks to its flexible and constantly updated nature, NFT-Royal Token is a modern solution that responds to the needs of an ever-growing and globally recognized market.",
-        "Gaming_06" : "Advantages of <span>NFT-Royal Token</span> in gaming:",
+        "Gaming_06" : "Advantages of  NFT-Royal Token in gaming:",
 
         "Gaming_Teaser_01": "Innovative technology",
         "Gaming_Teaser_02" : "Our project features the BEP-20 blockchain technology, a token fully targeted to the entertainment and gaming market, developed to achieve the best performance with an incredible number of opportunities.",
@@ -92,7 +92,7 @@
         "Market_Teaser_07" : "Trade with them",
         "Market_Teaser_08" : "Make the decision: auctions, fixed price listings or variable price listings - the choice is yours! You choose how to sell your NFT's and we help you make it happen.",
 
-        "Market_Center" : "Trust Royal Marketplace<br>and get started now",
+        "Market_Center" : "Trust Royal Marketplace and get started now",
 
         "Market_Center_01" : "Security is our greatest commitment.",
         "Market_Center_02" : "Reliable buy/sell transactions",

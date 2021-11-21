@@ -1,5 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Reveal from 'react-reveal/Reveal';
+
+
 import rosa2 from "../../images/body/rosa2.jpg"
 import verdagaming from "../../images/body/verde_gaming.png"
 import naranja from "../../images/body/naranja.png"
@@ -11,7 +14,11 @@ export default function Gaming() {
     const [t, i18n] = useTranslation("global")
     return(
         <>
-        <section id="four" class="telon">
+
+    <Reveal   effect="telon  fade-in" effectOut="telon" delay={40000}>
+
+
+        <section id="four" class="telon ">
             <div class="palo-telon"></div>
             <span></span>
             <span></span>
@@ -29,7 +36,8 @@ export default function Gaming() {
                     </div>
                 </div>
             </div>
-        </section>
+            </section>
+        </Reveal>
 
         <section class="bg-purple">
 

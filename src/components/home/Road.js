@@ -36,7 +36,7 @@ export default function Road() {
                 <div class="road-map">
                     <span class="arrow"></span>
                     <span></span>
-                    <div class="road-teaser">
+                    <div class="road-teaser fade-in">
                         <div>
                             <h4 class="h3">{t("road.Road_01")} 2021</h4>
                             <p><b>Token</b></p>
@@ -44,7 +44,7 @@ export default function Road() {
                             <span></span>
                         </div>
                     </div>
-                    <div class="road-teaser">
+                    <div class="road-teaser fade-in">
                         <div>
                             <h4 class="h3">{t("road.Road_02")} 2021</h4>
                             <p><b>Staking</b></p>
@@ -52,7 +52,7 @@ export default function Road() {
                             <span></span>
                         </div>
                     </div>
-                    <div class="road-teaser">
+                    <div class="road-teaser fade-in">
                         <div>
                             <h4 class="h3">{t("road.Road_03")}  2021</h4>
                             <p><b>Exchange</b></p>
@@ -61,7 +61,7 @@ export default function Road() {
                         </div>
                     </div>
 
-                    <div class="road-teaser">
+                    <div class="road-teaser fade-in">
                         <div>
                             <h4 class="h3">{t("road.Road_04")}  2021</h4>
                             <p><b>Coinmarketcap</b></p>
@@ -70,7 +70,7 @@ export default function Road() {
                         </div>
                     </div>
 
-                    <div class="road-teaser">
+                    <div class="road-teaser fade-in">
                         <div>
                             <h4 class="h3">{t("road.Road_06")} 2022</h4>
                             <p><b>NFT Marketplace</b></p>

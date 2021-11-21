@@ -17,7 +17,7 @@
     },
 
     "hero" : {
-        "Hero_01" : "Shake the world with your roar and let your profits make you <span>KING</span>",
+        "Hero_01" : "Shake the world with your roar and let your profits make you KING",
         "Hero_02" : "Thanks to our innovative multifunctional ecosystem of DeFi capabilities and applications, which puts exclusive collections of NFT's in your hands.",
         "Lion_01" : "Remember that a lion never loses his cool",
         "Lion_02" : "he works smart, because when lions want to win, they use NFT Royal Token and optimize their earnings to make profits according to the time and type of assets they supply."
@@ -44,7 +44,7 @@
     "token":{
         "Token_Title" : "Buy NRT Royal Token right now and build your kingdom step by step:",
         "Token_01" : "What is a token?",
-        "Token_02" : "Imagine you want to trade a product or service, send some data or generate an intangible incentive, but you want to do it easily and securely. You can do this through a token; because a token, in simple words, is a 'token' that can represent anything. And even though they can function as a means of exchange or payment, their main purpose is to represent a value.<br><br>This value is determined according to the configuration of the environment in which it is developed, through a Smart contract. And the only means by which a token can function is a blockchain.",
+        "Token_02" : "Imagine you want to trade a product or service, send some data or generate an intangible incentive, but you want to do it easily and securely. You can do this through a token; because a token, in simple words, is a 'token' that can represent anything. And even though they can function as a means of exchange or payment, their main purpose is to represent a value. This value is determined according to the configuration of the environment in which it is developed, through a Smart contract. And the only means by which a token can function is a blockchain.",
 
         "Token_03" : "What are the advantages of a token?",
         "Token_04" : "A token is often confused with a cryptocurrency, but they are not the same. Each development has its own characteristics and qualities. For starters, a token has multiple applications, which makes it more versatile and adaptable than a cryptocurrency, because it can fulfill specific purposes. Today, for example, tokens already function as a new investment tool.",
@@ -57,7 +57,7 @@
         "Token_Types_04" : "NFT",
 
         "Token_05" : "Why betting on tokens?",
-        "Token_06" : "Some time ago, between March 2016 and March 2017, different startups around the world raised more than $300 million through Initial Coins Offerings (ICOs), a 'replacement' resource made possible by tokens.  This is just a small sample of the growth and scope that these assets have been acquiring since their early years of origin.<br><br> It is expected that the so-called tokenization of the world, in the financial sector and beyond, will be one of the many applications of this asset and will increase in the coming years. What does all this mean? Very simple: NFT ROYAL TOKEN has great potential for future appreciation, projection and growth, as of today."
+        "Token_06" : "Some time ago, between March 2016 and March 2017, different startups around the world raised more than $300 million through Initial Coins Offerings (ICOs), a 'replacement' resource made possible by tokens.  This is just a small sample of the growth and scope that these assets have been acquiring since their early years of origin. It is expected that the so-called tokenization of the world, in the financial sector and beyond, will be one of the many applications of this asset and will increase in the coming years. What does all this mean? Very simple: NFT ROYAL TOKEN has great potential for future appreciation, projection and growth, as of today."
 
     },
     "gaming":{
@@ -95,7 +95,7 @@
         "Market_Teaser_07" : "Trade with them",
         "Market_Teaser_08" : "Make the decision: auctions, fixed price listings or variable price listings - the choice is yours! You choose how to sell your NFT's and we help you make it happen.",
 
-        "Market_Center" : "Trust Royal Marketplace<br>and get started now",
+        "Market_Center" : "Trust Royal Marketplace and get started now",
 
         "Market_Center_01" : "Security is our greatest commitment.",
         "Market_Center_02" : "Reliable buy/sell transactions",
