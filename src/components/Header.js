@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/nav.css';
 import Logo from '../images/logo/logo.png';
@@ -12,11 +12,20 @@ export default function Header() {
         swithToggled ? setSwithToggled(false) : setSwithToggled(true);
     }
 
+    let menuRef = useRef();
+
     useEffect(()=> {
-        document.addEventListener("mousedown", () => {
-            setSwithToggled(false)
-        })
-    })
+        let handler = (event) => {
+            if (!menuRef.current.contains(event.target)){
+                setSwithToggled(false)
+            }
+        }
+
+        document.addEventListener("mousedown", handler);
+        return () =>{
+            document.removeEventListener("mousedown", handler)
+        }
+    });
 
     return (
     <>
@@ -33,7 +42,7 @@ export default function Header() {
                     <div>
                         <a href="./" className="logo"><img src={Logo} /></a>
 
-                        <div className="button-menu">
+                        <div className="button-menu" ref={menuRef}>
                             <div onClick={ToggleSwitch} className="btn gold language proof"></div>
                             <ul id="button-menu" className={ swithToggled ? "button-menu-close show": "button-menu-close " }>
                                 <li><a onClick={()=> i18n.changeLanguage("en")} className={language === "en" && "selected"}>English</a></li>
