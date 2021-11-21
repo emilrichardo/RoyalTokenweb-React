@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Helmet } from 'react-helmet';
+import Favicon from 'react-favicon';
+import Logo from "./images/logo/logo_icon.svg"
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -25,9 +27,10 @@ i18next.init({
 ReactDOM.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-
+    <Favicon url={Logo} />
       <Helmet>
 
+        <title>NFT Royal Token</title>
         <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>

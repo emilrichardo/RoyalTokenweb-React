@@ -1,9 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { useTranslation } from 'react-i18next';
 import '../styles/nav.css';
 import Logo from '../images/logo/logo.png';
 export default function Header() {
-    const [t, i18n] = useTranslation("global")
+    const [t, i18n] = useTranslation("global");
+    const {language} = i18n ;
+
+    const[swithToggled,setSwithToggled] = useState(false);
+
+    const ToggleSwitch = () => {
+        swithToggled ? setSwithToggled(false) : setSwithToggled(true);
+    }
+
+    useEffect(()=> {
+        document.addEventListener("mousedown", () => {
+            setSwithToggled(false)
+        })
+    })
+
     return (
     <>
 
@@ -20,10 +34,10 @@ export default function Header() {
                         <a href="./" className="logo"><img src={Logo} /></a>
 
                         <div className="button-menu">
-                            <div onclick="myFunction()" className="btn gold language proof"></div>
-                            <ul id="button-menu" className="button-menu-close">
-                                <li><a href='?language=english' className="<?php echo $Conditions_Language_Eng; ?>">English</a></li>
-                                <li><a href='?language=spanish' className="<?php echo $Conditions_Language_Esp; ?>">Español</a></li>
+                            <div onClick={ToggleSwitch} className="btn gold language proof"></div>
+                            <ul id="button-menu" className={ swithToggled ? "button-menu-close show": "button-menu-close " }>
+                                <li><a onClick={()=> i18n.changeLanguage("en")} className={language === "en" && "selected"}>English</a></li>
+                                <li><a onClick={()=> i18n.changeLanguage("es")} className={language === "es" && "selected"}>Español</a></li>
                             </ul>
                         </div>
                     </div>
