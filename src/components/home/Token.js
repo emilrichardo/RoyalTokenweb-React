@@ -51,7 +51,7 @@ export default function Token(params) {
                     <div class="text">
                         <h2 class="h3">{t("token.Token_05")}</h2>
                         <p>{t("token.Token_06")}</p>
-                        <a href='#' class="btn gold">{t("buttons.Btn_Register")}</a>
+                        <a href='http://my.nftroyaltoken.com/join/admin' class="btn gold">{t("buttons.Btn_Register")}</a>
                     </div>
                 </div>
             </div>

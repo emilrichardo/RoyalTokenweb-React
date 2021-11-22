@@ -64,7 +64,7 @@ export default function Header() {
                         <li><a href='#four'>{t('menu.Menu_Gaming')}</a></li>
                         <li><a href='#five'>{t('menu.Menu_Market')}</a></li>
                         <li><a href='#six'>{t('menu.Menu_Road')}</a></li>
-                        <li><a href='#' className="btn gold">{t('buttons.Btn_Register')}</a></li>
+                        <li><a href='http://my.nftroyaltoken.com/join/admin' className="btn gold">{t('buttons.Btn_Register')}</a></li>
                         <li><a href='https://my.nftroyaltoken.com/' className="btn outline">{t('buttons.Btn_Login')}</a></li>
                     </ul>
                 </div>

@@ -93,7 +93,7 @@ export default function Market() {
                     <div class="text">
                         <h2 class="h2">{t("market.Market_03")}</h2>
                         <p>{t("market.Market_04")}</p>
-                        <a href="#" class="btn gold">{t("buttons.Btn_Register")}</a>
+                        <a href="http://my.nftroyaltoken.com/join/admin" class="btn gold">{t("buttons.Btn_Register")}</a>
                     </div>
                 </div>
             </div>
