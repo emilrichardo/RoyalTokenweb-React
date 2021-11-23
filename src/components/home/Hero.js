@@ -1,12 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Prices from "../Prices"
+import SmartContracts from '../SmartContracts';
 
-import binance from "../../images/icons/exchanges/binance.svg"
+
 export default function Hero() {
     const [t, i18n] = useTranslation("global")
 
     return(
         <>
+
         <section id="one" class="bg-gradient zindex">
             <div class="hero">
                 <div class="content-hero">
@@ -383,20 +386,10 @@ export default function Hero() {
                 </div>
 
                 <div>
-                <p>Royal token price (NRT)</p>
-                <h2 class="h1">$2.01 <span class="price down">3.56%</span></h2>
-                <p class="tiny">0.00003091 <b>BTC</b><span class="price up">1.35%</span></p>
-                <p class="tiny">0.00004224 <b>ETH</b><span class="price down">1.93%</span></p>
+                <Prices/>
 
-                <label>Smart Contracts:</label>
+                <SmartContracts/>
 
-
-                <span class="input">
-                <a href="https://bscscan.com/token/0x1b2f67679798c764f2c0c69dfb6bda8b30a094cf" target="_blank"><img src={binance} class="icon-exchange"/></a>
-                <input type="text" id="contract" value="0x1b2f67679798c764f2c0c69dfb6bda8b30a094cf" readonly="readonly"/>
-                <button class="copy" data-copytarget="#contract"></button>
-                <button class="metamask"><img src="https://s2.coinmarketcap.com/static/cloud/img/metamask.png?_=f76b203"/></button>
-                </span>
 
                 <div class="buttons left">
                 <a href="#two" class="btn outline">{t("buttons.Btn_Read")} </a>
