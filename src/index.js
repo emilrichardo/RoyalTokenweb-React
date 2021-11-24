@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom'
 import { Helmet } from 'react-helmet';
 import Favicon from 'react-favicon';
 import Logo from "./images/logo/logo_icon.svg"
@@ -38,7 +39,7 @@ ReactDOM.render(
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 
       </Helmet>
-      <App />
+      <BrowserRouter><App /></BrowserRouter>,
     </I18nextProvider>
 
   </React.StrictMode>,

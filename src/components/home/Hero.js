@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Prices from "../Prices"
 import SmartContracts from '../SmartContracts';
+import AT from '../addtoken/AT';
 
 
 export default function Hero() {
@@ -390,10 +391,12 @@ export default function Hero() {
 
                 <SmartContracts/>
 
+                <AT></AT>
 
                 <div class="buttons left">
                 <a href="#two" class="btn outline">{t("buttons.Btn_Read")} </a>
                 </div>
+
             </div>
 
                 </div>

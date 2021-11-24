@@ -20,17 +20,16 @@ export default function SmartContracts(params) {
                     value="0x1b2f67679798c764f2c0c69dfb6bda8b30a094cf" readonly="readonly"
                 />
 
-                 <CopyToClipboard text="0x1b2f67679798c764f2c0c69dfb6bda8b30a094cf">
-                     <>
-                     <button onClick={()=> setCopied(true)} class="copy"></button>
+                 <CopyToClipboard>
 
-                     </>
+                     <button onClick={()=> setCopied(true)} class="copy" text="0x1b2f67679798c764f2c0c69dfb6bda8b30a094cf"></button>
+
+
                  </CopyToClipboard>
 
 
 
 
-            <button class="metamask"><img src="https://s2.coinmarketcap.com/static/cloud/img/metamask.png?_=f76b203"/></button>
             </span>
 
             {copied && <span>✓ Copied</span>}
