@@ -1,6 +1,7 @@
 import { useState } from "react";
 import binance from "../images/icons/exchanges/binance.svg"
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import MetaMask from "./metamask";
 export default function SmartContracts(params) {
 
 
@@ -29,7 +30,7 @@ export default function SmartContracts(params) {
 
 
 
-
+                <MetaMask/>
             </span>
 
             {copied && <span>✓ Copied</span>}

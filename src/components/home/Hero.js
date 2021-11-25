@@ -6,6 +6,7 @@ import HeroBackground from './HeroBackground';
 import Prices from "../Prices"
 import SmartContracts from '../SmartContracts';
 
+
 const Hero = ({children}) => {
     const [t, i18n] = useTranslation("global")
 
@@ -23,7 +24,7 @@ const Hero = ({children}) => {
                     <Prices/>
                     <SmartContracts/>
 
-                     {children}
+
                     <div className="buttons left">
                     <a href="#two" className="btn outline">{t("buttons.Btn_Read")} </a>
                     </div>

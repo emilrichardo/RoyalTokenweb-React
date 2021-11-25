@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import detectEthereumProvider from '@metamask/detect-provider'
-import ErrorToken from './ErrorToken';
-import DownloadMetaMaskButton from './DownloadMetaMaskButton';
+import ButtonFox from './ButtonFox';
+import ErroToken from './ErrorToken'
+
 import Eth from 'ethjs-query';
-import logo from './logo.png';
 import queryString from 'querystringify'
-import { Avatar } from '@material-ui/core';
+
 
 const metaMarkAddress = '0x1b2f67679798c764f2c0c69dfb6bda8b30a094cf';
 
@@ -72,18 +72,18 @@ class AddToken extends Component {
     if (errorMessage !== '') {
       error = <p className="errorMessage">
         There was a problem adding this token to your wallet. Make sure you have the latest version of MetaMask installed!
-        <DownloadMetaMaskButton />
+
       </p>
     }
 
     if (tokenNet !== net) {
-      return <ErrorToken net={net} tokenNet={tokenNet} />
+      return <ErroToken />
     }
 
     return (
-        <div>
-          <Avatar
-            src={logo}
+        <>
+          <ButtonFox
+
             onClick={async (event) => {
               const provider = await detectEthereumProvider()
               provider.sendAsync({
@@ -113,14 +113,18 @@ class AddToken extends Component {
                 })
               })
             }}
-          />
+          >
 
-        <p>{message}</p>
-        {error}
 
-      </div>
+          </ButtonFox>
+
+
+
+      </>
     )
   }
 }
+
+
 
 export default AddToken;
