@@ -1,20 +1,37 @@
 import detectEthereumProvider from '@metamask/detect-provider';
 import React, { useState } from 'react';
 import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
-import Home from "./pages/Home";
-import AddToken from './components/addtoken/AddToken';
-import DownloadMetaMaskButton from './components/addtoken/DownloadMetaMaskButton';
-import Loading from './components/Loading';
 
 
+import Hero from './components/home/Hero';
+
+import './styles/main.css'
+import './styles/style.css'
+import './styles/reset.css'
+
+
+import AddToken from "./components/addtoken/AddToken.jsx"
+const MainContent = () => {
+
+  return (
+    <div>
+
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter hashType="noslash">
+          <Switch>
+            <Route path="/add" component={AddToken} />
+            <Route path="/" component={AddToken} />
+          </Switch>
+        </HashRouter>
+      </BrowserRouter>
+    </div>
+  )
+};
 
 const ErrorContent = () => {
   return (
     <div>
-      <div>
-        <h2>You need a web3 browser like MetaMask to use this site and manage cryptocurrencies.</h2>
-        <DownloadMetaMaskButton />
-      </div>
+       no tienes la extension instalada
     </div>
   )
 }
@@ -33,10 +50,10 @@ const App = () => {
 
   return (
     <div className="App">
-      {isLoading ? <Loading/>
+      {isLoading ? <div><div><h2>Loading.....</h2></div></div>
         : <div>
 
-          {isProviderLoaded ? <Home /> : <ErrorContent />}
+          {isProviderLoaded ? <Hero><MainContent /></Hero> : <Hero><ErrorContent /></Hero>}
 
         </div>}
     </div>

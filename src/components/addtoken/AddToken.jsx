@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import detectEthereumProvider from '@metamask/detect-provider'
-import SwitchNetworkNotice from './SwitchNetworkNotice'
+import ErrorToken from './ErrorToken';
 import DownloadMetaMaskButton from './DownloadMetaMaskButton';
 import Eth from 'ethjs-query';
 import logo from './logo.png';
@@ -47,11 +47,7 @@ class AddToken extends Component {
     this.updateNet()
   }
 
-  componentDidMount() {
-    const search = this.props.location.search
-    const params = queryString.parse(search)
-    this.setState(params)
-  }
+
 
   async updateNet() {
     const provider = await detectEthereumProvider()
@@ -81,7 +77,7 @@ class AddToken extends Component {
     }
 
     if (tokenNet !== net) {
-      return <SwitchNetworkNotice net={net} tokenNet={tokenNet} />
+      return <ErrorToken net={net} tokenNet={tokenNet} />
     }
 
     return (

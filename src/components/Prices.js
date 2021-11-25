@@ -29,8 +29,8 @@ export default function Prices(params) {
     return(
         <>
          <p>Royal token price (NRT)</p>
-                <h2 class="h1">$ {value}</h2>
-                <p class="tiny">{valuebnb}<b>BNB</b></p>
+                <h2 className="h1">$ {value}</h2>
+                <p className="tiny">{valuebnb}<b>BNB</b></p>
         </>
     )
 };

@@ -18,82 +18,82 @@ export default function Gaming() {
     <Reveal   effect="telon  fade-in" effectOut="telon" delay={40000}>
 
 
-        <section id="four" class="telon ">
-            <div class="palo-telon"></div>
+        <section id="four" className="telon ">
+            <div className="palo-telon"></div>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            <div class="block-box-bg">
-                <div class="bg-overlay soft"></div>
+            <div className="block-box-bg">
+                <div className="bg-overlay soft"></div>
                 <img src={rosa2} loading="lazy"/>
-                <div class="wrapper">
-                    <div class="text">
-                        <p class="h3">{t("gaming.Gaming_01")}</p>
-                        <h2 class="h1">{t("gaming.Gaming_02")}</h2>
+                <div className="wrapper">
+                    <div className="text">
+                        <p className="h3">{t("gaming.Gaming_01")}</p>
+                        <h2 className="h1">{t("gaming.Gaming_02")}</h2>
                     </div>
                 </div>
             </div>
             </section>
         </Reveal>
 
-        <section class="bg-purple">
+        <section className="bg-purple">
 
-            <span class="bg-purple-top"></span>
-            <div class="block-content">
-                <div class="block-box right bottom">
+            <span className="bg-purple-top"></span>
+            <div className="block-content">
+                <div className="block-box right bottom">
                     <img src={verdagaming} loading="lazy"/>
-                    <div class="text">
-                        <h4 class="h2">{t("gaming.Gaming_Today")}</h4>
-                        <p class="h4">{t("gaming.Gaming_03")}</p>
+                    <div className="text">
+                        <h4 className="h2">{t("gaming.Gaming_Today")}</h4>
+                        <p className="h4">{t("gaming.Gaming_03")}</p>
                     </div>
                 </div>
 
-                <div class="block-box bottom box-black">
+                <div className="block-box bottom box-black">
                     <img src={naranja} loading="lazy"/>
-                    <div class="text">
-                        <p class="h4">{t("gaming.Gaming_04")}</p>
-                        <p class="h4">{t("gaming.Gaming_05")}</p>
+                    <div className="text">
+                        <p className="h4">{t("gaming.Gaming_04")}</p>
+                        <p className="h4">{t("gaming.Gaming_05")}</p>
                     </div>
                 </div>
             </div>
 
-            <div class="block-content">
+            <div className="block-content">
                 <center>
-                    <h2 class="h1">{t("gaming.Gaming_06")}</h2>
+                    <h2 className="h1">{t("gaming.Gaming_06")}</h2>
                 </center>
 
-                <div class="teaser-gaming">
+                <div className="teaser-gaming">
                     <div>
                         <img src={naranja} loading="lazy"/>
-                        <h4 class="h4">{t("gaming.Gaming_Teaser_01")}</h4>
+                        <h4 className="h4">{t("gaming.Gaming_Teaser_01")}</h4>
                         <p>{t("gaming.Gaming_Teaser_02")}</p>
                     </div>
                     <div>
                         <img src={seguridad} loading="lazy"/>
-                        <h4 class="h4">{t("gaming.Gaming_Teaser_03")}</h4>
+                        <h4 className="h4">{t("gaming.Gaming_Teaser_03")}</h4>
                         <p>{t("gaming.Gaming_Teaser_04")}</p>
                     </div>
                     <div>
                         <img src={etherscan} loading="lazy"/>
-                        <h4 class="h4">{t("gaming.Gaming_Teaser_05")}</h4>
+                        <h4 className="h4">{t("gaming.Gaming_Teaser_05")}</h4>
                         <p>{t("gaming.Gaming_Teaser_06")}</p>
                     </div>
                     <div>
                         <img src={api} loading="lazy"/>
-                        <h4 class="h4">{t("gaming.Gaming_Teaser_07")}</h4>
+                        <h4 className="h4">{t("gaming.Gaming_Teaser_07")}</h4>
                         <p>{t("gaming.Gaming_Teaser_08")}</p>
                     </div>
                     <div>
                         <img src={fiabilidad} loading="lazy"/>
-                        <h4 class="h4">{t("gaming.Gaming_Teaser_09")}</h4>
+                        <h4 className="h4">{t("gaming.Gaming_Teaser_09")}</h4>
                         <p>{t("gaming.Gaming_Teaser_10")}</p>
                     </div>
                 </div>
             </div>
-            <span class="bg-purple-bottom"></span>
+            <span className="bg-purple-bottom"></span>
         </section>
         </>
     )

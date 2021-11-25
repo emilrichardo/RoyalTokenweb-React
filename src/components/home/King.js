@@ -10,14 +10,14 @@ export default function King() {
     const [t, i18n] = useTranslation("global")
     return(
         <section id="two">
-            <div class="block-content big">
-                <div class="grid col-2 small-col-1 first">
+            <div className="block-content big">
+                <div className="grid col-2 small-col-1 first">
                     <div>
-                        <h2 class="h2">{t("king.King_01")}</h2>
-                        <p class="h4">{t("king.King_02")}</p>
+                        <h2 className="h2">{t("king.King_01")}</h2>
+                        <p className="h4">{t("king.King_02")}</p>
                     </div>
                     <div>
-                        <div class="menu list item">
+                        <div className="menu list item">
                             <ul>
                                 <li>{t("king.King_List_01")}</li>
                                 <li>{t("king.King_List_02")}</li>
@@ -30,7 +30,7 @@ export default function King() {
                         </div>
                     </div>
                 </div>
-                <div class="icons">
+                <div className="icons">
                     <div>
                         <img src={token}/>
 

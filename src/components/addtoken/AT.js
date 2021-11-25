@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import detectEthereumProvider from '@metamask/detect-provider';
-
+import MetaMask from './MetaMask';
 import styled from 'styled-components';
 import fox from "../../images/metamask-fox.svg"
 
 
 
 
+
 const AT = () => {
+
+
 
   return (
   <Card>
@@ -16,7 +18,7 @@ const AT = () => {
       <h5>Add Token<br/>to Metamask</h5>
     </div>
     <div className="cta">
-
+      <MetaMask/>
     </div>
   </Card>
   );

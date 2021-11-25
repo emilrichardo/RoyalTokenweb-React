@@ -7,12 +7,10 @@ import Token from "../components/home/Token";
 import Gaming from "../components/home/Gaming";
 import Market from "../components/home/Market";
 import Road from "../components/home/Road";
-import '../styles/main.css'
-import '../styles/style.css'
-import '../styles/reset.css'
-function App() {
+
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <Header></Header>
       <Hero/>
       <Lion/>
@@ -27,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

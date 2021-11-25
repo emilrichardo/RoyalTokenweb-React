@@ -277,406 +277,406 @@ button.copied:before {
 /* HERO-SVG */
 /* ============================================== */
 
-.cls-1, .cls-2, .cls-3 {
+.cls1, .cls2, .cls3 {
   fill: #e8c237;
 }
 
-.cls-1 {
+.cls1 {
   --opacity: 0.5;
   opacity: 0.5;
 }
 
-.cls-2 {
+.cls2 {
   --opacity: 0.1;
   opacity: 0.1;
 }
 
-.cls-3 {
+.cls3 {
   --opacity: 0.2;
 }
 
-.cls-3, .cls-69, .cls-74 {
+.cls3, .cls69, .cls74 {
   opacity: 0.2;
 }
 
-.cls-4 {
+.cls4 {
   fill: url(#linear-gradient);
 }
 
-.cls-5 {
+.cls5 {
   fill: url(#linear-gradient-2);
 }
 
-.cls-5-1{
+.cls5-1{
   fill: #ffef9f;
 }
 
-.cls-6 {
+.cls6 {
   fill: url(#linear-gradient-3);
 }
 
-.cls-7 {
+.cls7 {
   fill: url(#linear-gradient-4);
 }
 
-.cls-8 {
+.cls8 {
   fill: url(#linear-gradient-5);
 }
 
-.cls-9 {
+.cls9 {
   fill: url(#linear-gradient-6);
 }
 
-.cls-10 {
+.cls10 {
   fill: url(#linear-gradient-7);
 }
 
-.cls-11 {
+.cls11 {
   fill: url(#linear-gradient-8);
 }
 
-.cls-12 {
+.cls12 {
   fill: url(#linear-gradient-9);
 }
 
-.cls-13 {
+.cls13 {
   fill: url(#linear-gradient-10);
 }
 
-.cls-14 {
+.cls14 {
   fill: url(#linear-gradient-11);
 }
 
-.cls-15 {
+.cls15 {
   fill: url(#linear-gradient-12);
 }
 
-.cls-16 {
+.cls16 {
   fill: url(#linear-gradient-13);
 }
 
-.cls-17 {
+.cls17 {
   fill: url(#linear-gradient-14);
 }
 
-.cls-18 {
+.cls18 {
   fill: url(#linear-gradient-15);
 }
 
-.cls-19 {
+.cls19 {
   fill: url(#linear-gradient-16);
 }
 
-.cls-20 {
+.cls20 {
   fill: url(#linear-gradient-17);
 }
 
-.cls-21 {
+.cls21 {
   fill: url(#linear-gradient-18);
 }
 
-.cls-22 {
+.cls22 {
   fill: url(#linear-gradient-19);
 }
 
-.cls-23 {
+.cls23 {
   fill: url(#linear-gradient-20);
 }
 
-.cls-24 {
+.cls24 {
   fill: url(#linear-gradient-21);
 }
 
-.cls-25 {
+.cls25 {
   fill: url(#linear-gradient-22);
 }
 
-.cls-26 {
+.cls26 {
   fill: url(#linear-gradient-23);
 }
 
-.cls-27 {
+.cls27 {
   fill: url(#linear-gradient-24);
 }
 
-.cls-28 {
+.cls28 {
   fill: url(#linear-gradient-25);
 }
 
-.cls-29 {
+.cls29 {
   fill: url(#linear-gradient-26);
 }
 
-.cls-30 {
+.cls30 {
   fill: url(#linear-gradient-27);
 }
 
-.cls-31 {
+.cls31 {
   fill: url(#linear-gradient-28);
 }
 
-.cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40 {
+.cls32, .cls33, .cls34, .cls35, .cls36, .cls37, .cls38, .cls39, .cls40 {
   opacity: 0.85;
 }
 
-.cls-32 {
+.cls32 {
   fill: url(#radial-gradient);
 }
 
-.cls-33 {
+.cls33 {
   fill: url(#radial-gradient-2);
 }
 
-.cls-34 {
+.cls34 {
   fill: url(#radial-gradient-3);
 }
 
-.cls-35 {
+.cls35 {
   fill: url(#radial-gradient-4);
 }
 
-.cls-36 {
+.cls36 {
   fill: url(#radial-gradient-5);
 }
 
-.cls-37 {
+.cls37 {
   fill: url(#radial-gradient-6);
 }
 
-.cls-38 {
+.cls38 {
   fill: url(#radial-gradient-7);
 }
 
-.cls-39 {
+.cls39 {
   fill: url(#radial-gradient-8);
 }
 
-.cls-40 {
+.cls40 {
   fill: url(#radial-gradient-9);
 }
 
-.cls-41 {
+.cls41 {
   fill: #fff;
   opacity: 0.81;
 }
 
-.cls-42 {
+.cls42 {
   fill: url(#linear-gradient-29);
 }
 
-.cls-43 {
+.cls43 {
   fill: url(#linear-gradient-30);
 }
 
-.cls-44 {
+.cls44 {
   fill: url(#linear-gradient-31);
 }
 
-.cls-45 {
+.cls45 {
   fill: url(#linear-gradient-32);
 }
 
-.cls-46 {
+.cls46 {
   fill: url(#linear-gradient-33);
 }
 
-.cls-47 {
+.cls47 {
   fill: url(#linear-gradient-34);
 }
 
-.cls-48 {
+.cls48 {
   fill: url(#radial-gradient-10);
 }
 
-.cls-49 {
+.cls49 {
   fill: url(#linear-gradient-35);
 }
 
-.cls-50 {
+.cls50 {
   fill: url(#linear-gradient-36);
 }
 
-.cls-51 {
+.cls51 {
   fill: url(#linear-gradient-37);
 }
 
-.cls-52 {
+.cls52 {
   fill: url(#linear-gradient-38);
 }
 
-.cls-53 {
+.cls53 {
   fill: url(#radial-gradient-11);
 }
 
-.cls-54 {
+.cls54 {
   fill: url(#linear-gradient-39);
 }
 
-.cls-55 {
+.cls55 {
   fill: url(#linear-gradient-40);
 }
 
-.cls-56 {
+.cls56 {
   fill: url(#linear-gradient-41);
 }
 
-.cls-57 {
+.cls57 {
   fill: url(#radial-gradient-12);
 }
 
-.cls-58 {
+.cls58 {
   fill: url(#linear-gradient-42);
 }
 
-.cls-59 {
+.cls59 {
   fill: url(#linear-gradient-43);
 }
 
-.cls-60 {
+.cls60 {
   fill: url(#linear-gradient-44);
 }
 
-.cls-61 {
+.cls61 {
   fill: url(#linear-gradient-45);
 }
 
-.cls-62 {
+.cls62 {
   fill: url(#radial-gradient-13);
 }
 
-.cls-63 {
+.cls63 {
   fill: url(#linear-gradient-46);
 }
 
-.cls-64 {
+.cls64 {
   fill: url(#linear-gradient-47);
 }
 
-.cls-65 {
+.cls65 {
   fill: url(#linear-gradient-48);
 }
 
-.cls-66 {
+.cls66 {
   fill: url(#linear-gradient-49);
 }
 
-.cls-67 {
+.cls67 {
   fill: url(#radial-gradient-14);
 }
 
-.cls-68 {
+.cls68 {
   fill: url(#linear-gradient-50);
 }
 
-.cls-70 {
+.cls70 {
   fill: url(#linear-gradient-51);
 }
 
-.cls-71 {
+.cls71 {
   fill: url(#linear-gradient-52);
 }
 
-.cls-72 {
+.cls72 {
   fill: url(#radial-gradient-15);
 }
 
-.cls-73 {
+.cls73 {
   fill: #b3b3b3;
 }
 
-.cls-74 {
+.cls74 {
   fill: #f2f2f2;
 }
 
-.cls-75 {
+.cls75 {
   opacity: 0.4;
 }
 
-.cls-76 {
+.cls76 {
   fill: #1a1a1a;
 }
 
-.cls-77 {
+.cls77 {
   fill: url(#radial-gradient-16);
 }
 
-.cls-78 {
+.cls78 {
   fill: url(#linear-gradient-53);
 }
 
-.cls-79 {
+.cls79 {
   fill: url(#linear-gradient-54);
 }
 
-.cls-80 {
+.cls80 {
   fill: url(#linear-gradient-55);
 }
 
-.cls-81 {
+.cls81 {
   fill: url(#radial-gradient-17);
 }
 
-.cls-82 {
+.cls82 {
   fill: url(#linear-gradient-56);
 }
 
-.cls-83 {
+.cls83 {
   fill: url(#linear-gradient-57);
 }
 
-.cls-84 {
+.cls84 {
   fill: url(#linear-gradient-58);
 }
 
-.cls-85 {
+.cls85 {
   fill: url(#linear-gradient-59);
 }
 
-.cls-86 {
+.cls86 {
   fill: url(#linear-gradient-60);
 }
 
-.cls-87 {
+.cls87 {
   fill: url(#linear-gradient-61);
 }
 
-.cls-88 {
+.cls88 {
   fill: url(#linear-gradient-62);
 }
 
-.cls-89 {
+.cls89 {
   fill: #f5cc79;
 }
 
-.cls-90 {
+.cls90 {
   fill: url(#linear-gradient-63);
 }
 
-.cls-91 {
+.cls91 {
   fill: url(#linear-gradient-64);
 }
 
-.cls-92 {
+.cls92 {
   fill: url(#linear-gradient-65);
 }
 
-.cls-93 {
+.cls93 {
   fill: url(#linear-gradient-66);
 }
 
-.cls-94 {
+.cls94 {
   fill: url(#linear-gradient-67);
 }
 
-.cls-95 {
+.cls95 {
   fill: url(#linear-gradient-68);
 }
 
-.cls-96 {
+.cls96 {
   fill: url(#linear-gradient-69);
 }
 
-.cls-97 {
+.cls97 {
   fill: url(#linear-gradient-70);
 }
 

@@ -8,7 +8,7 @@ export default function Lion(params) {
         <div className="parallax bg-blue">
             <div className="cosa">
                 <div>
-                    <img src={crown} class="crown" />
+                    <img src={crown} className="crown" />
                     <h2 className="h2">{t("hero.Lion_01")}</h2>
                     <p className="h4">{t("hero.Lion_02")} </p>
                 </div>
