@@ -923,10 +923,10 @@ button.copied:before {
 .bg-gradient{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e1e32+0,323246+100 */
 background: #1e1e32; /* Old browsers */
-background: -moz-linear-gradient(left,  #1e1e32 0%, #323246 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #1e1e32 0%,#323246 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #1e1e32 0%,#323246 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e32', endColorstr='#323246',GradientType=1 ); /* IE6-9 */
+background: -moz-linear-gradient(left,  #1e1e32 0%, #323246 100%)!important; /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e1e32 0%,#323246 100%)!important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e1e32 0%,#323246 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e32', endColorstr='#323246',GradientType=1 )!important; /* IE6-9 */
 
 
 }
